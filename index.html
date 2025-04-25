@@ -2,43 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>terimakaashii-2 🔥</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>terimakaashi-1 🧟</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <div class="background-animation"></div>
+    <audio id="bg-music" src="./assets/lilia.mp3" preload="auto"></audio>
+    <button
+      id="music-toggle"
+      onclick="toggleMusic()"
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #ff99aa;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+      "
+    >
+      🎵
+    </button>
 
-    <div class="slideshow-container">
-      <div class="slide active">
-        <p class="message">hayo ngapain masih buka 🤨</p>
-      </div>
-      <div class="slide">
-        <p class="message">
-          aku lagi nulis sesuatu disini, ketauan iseng banget kamu masih buka
-          ini 😖
+    <div class="envelope" onclick="openEnvelope()">
+      <div class="flap"></div>
+      <div class="paper">
+        <p><b>dear terimakaashi,</b></p>
+        <p>
+          haiiii 👋🏻 of course this might be weird and random, also maybe you
+          just read this after you finish the exam, and yep you don’t have to
+          actually reply it but, i’ll be in bandung for the next 3 days to
+          attend digital marketing training and i’m not sure i could see you on
+          friday to say this directly so… 🥸 i just want to say this to you:
         </p>
-      </div>
-      <div class="slide">
-        <p class="message">
-          hayoo, semangat belajarnya yaa, aku tau kamu pasti bisa! bismillah 😤
+        <p>
+          "mmmmmm aku belum tau apa yang lagi kamu rasain sekarang tapiii,
+          masyaAllah kamuuu kerennn! capeknya, anxiousnya, paniknya, nangisnya,
+          frustasinya.. itu keren semuaaaa, karena semua itu usaha artinya aku
+          bisa lihat seberapa kamu yakin dengan apa yang jadi tujuan kamu
+          (apapun itu 👾), dan kalau hal itu sih aku yakin kamu pasti lebih
+          paham sama apa yang udah kamu rasain dan laluin 😵
         </p>
-      </div>
-      <div class="slide">
-        <p class="message">
-          kalau masih buka ini nanti dapet piring cantik sih wkwkwkkw, anehhh
-          bangett 🫠
+        <p>
+          ohh iyaaa, juga tentunyaa aku tidak bisa selalu melihat langsung
+          segala apa yang jadi effort kamu sih, tapi aku paham kamu udah
+          berjuang dan menggunakan banyak waktu dan energi buat hari-H ujian,
+          apapun itu bentuk ujiannya, aku yakin kamu pasti bisa lalui,
+          bismillah,
         </p>
+        <p>
+          aku berdoa kamu mendapatkan hasil terbaik dari apa yang udah menjadi
+          usaha kamu, terima kasih sudah berjuang, terima kasih sudah yakin,
+          terima kasih sudah percaya, terima kasih sudah menjadi alila 😤
+        </p>
+        <p>mmmmm jadi alilaaa khairunazhifaaaaa semangaaaattt!!!!!!!"</p>
+        <p>
+          i wrote this 4 days before i sent it to you 😶‍🌫️ because i just finished
+          the code to make this letter 🙆‍♂️
+        </p>
+        <p>i’m not sure if you’ll read this or not, but i hope you do</p>
+        <p><b>from heirs_all</b></p>
       </div>
-      <div class="buttons">
-        <button class="button" onclick="prevSlide()">Back 👎</button>
-        <button class="button" onclick="nextSlide()">Next 👍</button>
-      </div>
+      <div class="circle-dot"></div>
     </div>
+
     <!-- Include the script.js file -->
     <script src="script.js"></script>
   </body>
