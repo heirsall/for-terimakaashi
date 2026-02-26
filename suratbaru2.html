@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>for-terimakaashi 🐈‍⬛</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Collapsible Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <button
+        id="sidebar-toggle"
+        class="sidebar-toggle"
+        aria-label="Toggle sidebar"
+      >
+        ☰
+      </button>
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="index.html"><b>Halaman Utama</b></a>
+          </li>
+          <li><a href="suratbaru4.html">Kamis, 26 Februari 2026</a></li>
+          <li><a href="suratbaru3.html">Rabu, 25 Februari 2026</a></li>
+          <li><a href="suratbaru2.html">Selasa, 24 Februari 2026</a></li>
+          <li><a href="suratbaru1.html">Kamis, 19 Februari 2026</a></li>
+          <li><a href="suratlama.html">Senin, 23 Juni 2025</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <audio id="bg-music" src="./assets/lilia.mp3" preload="auto"></audio>
+    <button
+      id="music-toggle"
+      onclick="toggleMusic()"
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #ff99aa;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+      "
+    >
+      🎵
+    </button>
+
+    <div class="envelope" onclick="openEnvelope()">
+      <div class="flap"></div>
+      <div class="paper">
+        <p><b>dear terimakaashi,</b></p>
+        <p>hai i hope you are doing well too :)</p>
+        <p>
+          aku nulis ini hari selasa tanggal 24 februari sih tapi belum tau kapan
+          publishnya 🤔😁🙂‍↕️ (sekarang sudah publish, ini karena tanggal 26
+          ternyata aku bisa ngobrol sama kamu! wkwkw, aku sudah bilang alasannya
+          aku gimana 😬)
+        </p>
+        <p>
+          aku sedikit merasa kesepian, kemarin aku di cimahi selama seminggu
+          jadinya, rasanya hangat sekali bisa memulai ramadhan bareng keluarga
+          di cimahi wkwkkw 😬 di cimahi minggu kemarin kemarin aku bisa
+          produktif dan juga menjalani aktivitas ramadhanku dengan merasa 'aku
+          sekali!', alhamdulillah aku senang dan bangga (yayy) 🙂‍↕️ tapi tentunya
+          gak bisa lama-lama juga di rumah, aku terjebak dalam kenyamanannya
+          nanti dan malah nyalahin keadaan kalau nanti terjadi sesuatu yang
+          tidak sesuai dengan keinginan aku 😂 (contoh: nanti malah merasa
+          jengkel kalau disuruh-suruh terus sama ibu 😭)
+        </p>
+        <p>
+          tapi yap, nyampe bogor, di kamar kosan sendiri lagi, rasanya jadi agak
+          sedikit <i>kehilangan</i> gak ada yang bisa aku ajak ngobrol juga 😬😂
+          but it's okay 🙂‍↕️ aku menyibukkan diri di HO atau sama kegiatan daily
+          checklist aku akhir-akhir ini 🙆🏻‍♂️
+        </p>
+        <p>
+          i hope you are doing good too, kalau sedang tidak okay juga gapapaaaa,
+          it's okay to not be okay 🙂‍↕️ well, you are not alone 🙆🏻‍♂️ take your time
+          🌳
+        </p>
+        <p>terima kasiiih sudah mau baca inii, see you later :)</p>
+        <p><b>dari mochamad thiesa nabil</b></p>
+      </div>
+      <div class="circle-dot"></div>
+    </div>
+
+    <!-- Include the script.js file -->
+    <script src="script.js"></script>
+  </body>
+</html>

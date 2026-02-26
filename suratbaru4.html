@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>for-terimakaashi 🐈‍⬛</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Collapsible Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <button
+        id="sidebar-toggle"
+        class="sidebar-toggle"
+        aria-label="Toggle sidebar"
+      >
+        ☰
+      </button>
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="index.html"><b>Halaman Utama</b></a>
+          </li>
+          <li><a href="suratbaru4.html">Kamis, 26 Februari 2026</a></li>
+          <li><a href="suratbaru3.html">Rabu, 25 Februari 2026</a></li>
+          <li><a href="suratbaru2.html">Selasa, 24 Februari 2026</a></li>
+          <li><a href="suratbaru1.html">Kamis, 19 Februari 2026</a></li>
+          <li><a href="suratlama.html">Senin, 23 Juni 2025</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <audio id="bg-music" src="./assets/lilia.mp3" preload="auto"></audio>
+    <button
+      id="music-toggle"
+      onclick="toggleMusic()"
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #ff99aa;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+      "
+    >
+      🎵
+    </button>
+
+    <div class="envelope" onclick="openEnvelope()">
+      <div class="flap"></div>
+      <div class="paper">
+        <p><b>dear terimakaashi,</b></p>
+        <p>malem ini langitnya bagus lagii :) 😁</p>
+        <img
+          src="./assets/langitmalam2.jpg"
+          alt="langitmalam"
+          class="langit-malam1"
+        />
+        <p>
+          hari ini aku belajar sedikit hal sama pak tyo 🤔 aku nanya "pak
+          emangnya gimana sih jadi cowo yang punya tujuan?" abis itu reaksi
+          ruangan pak tyo yang isinya ada bu ayu juga kaget sambil bilang "oke
+          saya keluar aja 😂"
+        </p>
+        <p>
+          aku nanya ini sebenarnya ke trigger juga sih dari tontonan kemarin
+          podcast escape waktu ustadz felix jelasin konteks tentang kenapa kita
+          bisa sibuk menerima misinformasi, itu terjadi karena kita menjauh dari
+          apa yang menjadi tujuan kita, kena distraksi, jadi beliau bilang
+          solusinya yaa punya tujuan biar kegiatannya kita itu mengarah kepada
+          apa yang kita sudah rencanakan 🤔
+        </p>
+        <p>
+          dan yaa bukan karena abis nonton ini aja sih aku jadi kepikiran
+          tentang hal ini, aku jadinya nanya pak tyo aja karena merasa lebih
+          baik ngobrol sama orang wkwkw, sebenernya aku juga sudah tau tentang
+          hal itu dan mengusahakan terkait membuat tujuan dalam hidup semacam
+          itu lah 😬
+        </p>
+        <p>
+          aku mempertanyakan hal ini dalam pikiranku juga karena aku nanya lagi
+          sama diri sendiri emang apa tujuannya aku? mencari ridho Allah?
+          kembali ke Allah? tapi kegiatan yang aku lakuin sekarang apakah sudah
+          mengarah kesana? bahkan aku aja sekarang masih ngerasain menurunnya
+          semangat aku dalam ibadah ramadhan 🤔🙂‍↕️
+        </p>
+        <p>
+          karena kepikiran terus jadi memustuskan untuk nanya sama 'mentor' aku
+          yaitu pak tyo wkwkwk 👴🏻 terus pak tyo ngasih gambar yang kurang lebih
+          kayak gini:
+        </p>
+        <img src="./assets/purpose1.jpg" alt="purpose1" class="purpose1" />
+        <p>
+          pak tyo juga mau jemput afa dan sekalian pulang kan jadinya gak bisa
+          panjang ngobrolnya dan beliau singkatnya ngasih gambar doang yang
+          kayak gitu 🙆🏻‍♂️ dan aku langsung ngerti, mungkin juga dengan pemahaman
+          aku saja ketika liat gambar itu sih 🙂‍↕️
+        </p>
+        <p>
+          kita selamanya akan bingung, belum tentu akan selalu siap juga dengan
+          ujian apa yang Allah kasih atau situasi apapun yang kita sedang
+          hadapi, tapi dari gambar itu resahnya aku cukup terjawab, karena yang
+          membedakan "having a purpose" dan tidak itu setidaknya walaupun kita
+          bingung, kita tetap melangkah maju ketimbang gak punya tujuan sama
+          sekali, karena hal itu akan membuat kita ada di tempat atau situasi
+          yang sama terus menerus ketimbang kita punya tujuan🤔😬 tujuan yang
+          kita buat saat ini pasti juga banyak gak yakinnya atau juga banyak
+          ambil <i>detour</i> duluan ketimbang langsung nyampe 🚏 at least itu
+          yang aku pahami sih, cukup menjawab dan ini jadi salah satu hal yang
+          aku pelajari hari ini 🙂‍↕️
+        </p>
+        <p>
+          terima kasih sudahh mau ngomong sama aku hari ini, aku senang bisa
+          ketemu kamu dan bisa berinteraksi 😊 i hope you are doing well,
+          kalaupun ngga juga it's okayyy, take your time, take care yaaa :)
+        </p>
+        <p>terima kasiiihh 🙆🏻‍♂️</p>
+        <p><b>dari mochamad thiesa nabil</b></p>
+      </div>
+      <div class="circle-dot"></div>
+    </div>
+
+    <!-- Include the script.js file -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -198,6 +198,20 @@ body {
   animation: none;
 }
 
+.langit-malam1 {
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.purpose1 {
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+  position: relative;
+}
+
 @media (max-width: 600px) {
   .paper {
     font-size: 14px;

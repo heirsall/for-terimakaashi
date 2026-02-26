@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>for-terimakaashi 🐈‍⬛</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Collapsible Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <button
+        id="sidebar-toggle"
+        class="sidebar-toggle"
+        aria-label="Toggle sidebar"
+      >
+        ☰
+      </button>
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="index.html"><b>Halaman Utama</b></a>
+          </li>
+          <li><a href="suratbaru4.html">Kamis, 26 Februari 2026</a></li>
+          <li><a href="suratbaru3.html">Rabu, 25 Februari 2026</a></li>
+          <li><a href="suratbaru2.html">Selasa, 24 Februari 2026</a></li>
+          <li><a href="suratbaru1.html">Kamis, 19 Februari 2026</a></li>
+          <li><a href="suratlama.html">Senin, 23 Juni 2025</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <audio id="bg-music" src="./assets/lilia.mp3" preload="auto"></audio>
+    <button
+      id="music-toggle"
+      onclick="toggleMusic()"
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #ff99aa;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+        z-index: 10;
+      "
+    >
+      🎵
+    </button>
+
+    <div class="envelope" onclick="openEnvelope()">
+      <div class="flap"></div>
+      <div class="paper">
+        <p><b>dear terimakaashi,</b></p>
+        <p>
+          aku ngambil gambar ini jam 11 malem karena ngambil makanan buat sahur,
+          langitnya indah sekali 😁
+        </p>
+        <img
+          src="./assets/langitmalam1.jpg"
+          alt="langitmalam"
+          class="langit-malam1"
+        />
+        <p>
+          semangat ramadan aku lagi turun sekali hari ini, nggak kayak awal-awal
+          aku semangat banget plus disiplin, terus karena sendiri juga aku
+          ngerasa belum ada yang bisa ngingetin aku secara langsung biar
+          accountable wkwkwkw 🤔
+        </p>
+        <p>
+          tapi iya ini ujiannya aku 🙂‍↕️ aku tadinya mau tidur lebih awal tapi
+          kelamaan karena nonton escape episode 4 wkwkwk 😂
+        </p>
+        <p>
+          langitnya indah sekali malam hari ini, bulannya gak penuh tapi terang
+          banget 🌒 bintang-bintangnya juga keliatan ✨
+        </p>
+        <p>terima kasiiihh</p>
+        <p><b>dari mochamad thiesa nabil</b></p>
+      </div>
+      <div class="circle-dot"></div>
+    </div>
+
+    <!-- Include the script.js file -->
+    <script src="script.js"></script>
+  </body>
+</html>
