@@ -14,7 +14,7 @@ if (sidebar && sidebarToggle) {
   });
 }
 
-fetch("../components/navbar.html")
+fetch("/navbar.html")
   .then((res) => res.text())
   .then((data) => {
     document.getElementById("navbar").innerHTML = data;
