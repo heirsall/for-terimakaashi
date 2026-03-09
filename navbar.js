@@ -14,7 +14,7 @@ if (sidebar && sidebarToggle) {
   });
 }
 
-fetch("./navbar.html")
+fetch("/for-terimakaashi/navbar.html")
   .then((res) => res.text())
   .then((data) => {
     document.getElementById("navbar").innerHTML = data;
